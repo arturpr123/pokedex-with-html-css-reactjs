@@ -1,38 +1,83 @@
-.App {
+.card {
+  background-color: red;
+  margin-bottom: 10px;
+  margin-top: -40px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.d-flex {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: auto;
+}
+
+.card-title {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: -5px;
+  border-radius: 4px;
+  font-size: bolder;
+}
+
+.card-text {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: -10px;
+  border-radius: 4px;
+}
+
+.btn {
+  border-radius: 30px;
+  position: relative;
+  text-align: center;
+  margin-left: -100%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.type1 {
+  background-color: #9b9b9be1;
+  text-decoration: none;
   color: white;
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.type1:hover {
+  color: white;
+  cursor: not-allowed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.card-img-top {
+  position: relative;
+  width: 50%;
+  margin-left: 25%;
+  background-image: url(https://media.istockphoto.com/id/1216134936/vector/abstract-creative-background.jpg?s=612x612&w=0&k=20&c=O9VGigmwpiUfPIh79-r85U-EX1rDAmAQ9RpgwnkkS08=);
+  background-size: 150% no-repeat;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form-control {
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.barra {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ccc;
+  margin: auto;
+}
+
+.barra div {
+  width: 200px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(20, 204, 112);
+  margin: auto;
 }
