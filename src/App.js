@@ -2,10 +2,6 @@ import React, { useState } from 'react';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import "./App.css";
 
-function AnimatedExample() {
-  return <ProgressBar variant="success" animated now={45} />;
-}
-
 function App() {
 
   const [id, setId] = useState(1);
